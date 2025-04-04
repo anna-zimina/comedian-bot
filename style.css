@@ -1,0 +1,94 @@
+body {
+    height: 100%;
+    width: 100%;
+    margin: 0;
+    padding: 0;
+    font-family: Whitney,Helvetica, Arial,sans-serif;
+    display: flex;
+    flex-direction: column;
+}
+
+.header-section {
+    background-color: rgb(34, 158, 217);
+    color: white;
+    height: 10%;
+    display: flex;
+    align-items: center;
+    padding-left: 20px;
+    max-width: 500px;
+}
+
+.bot-icon-base {
+    height: 50px;
+    width: 50px;
+    background-color: rgb(255, 255, 255);
+    border-radius: 50%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+
+#bot-icon {
+    height: 40px;
+    width: 40px;
+    fill: rgb(34, 158, 217);
+    stroke: black;
+    stroke-width: 10px;
+}
+
+h1 {
+    margin-left: 10px;
+}
+
+.message-section {
+display: flex;
+max-width: 500px;
+padding-left: 10px;
+}
+
+#chat-append-section {
+    padding: 10px;
+    display: flex;
+    flex-wrap: nowrap;
+    flex-direction: column;
+    justify-content: flex-start;
+}
+
+#chat-append-section > div {
+    color: black;
+    background-color: rgb(205, 205, 205);
+    margin: 10px;
+    text-align: justify;
+    height: auto;
+    border-radius: 5cap;
+    padding: 15px;
+    width: fit-content;
+    max-width: 60%;
+}
+
+.button-section {
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    max-width: 500px;
+    padding-left: 10px;
+}
+
+button {
+    color: white;
+    background-color: rgb(32, 158, 217);
+    border: 1px solid black;
+    border-radius: 5cap;
+    height: 30px;
+    min-width: 70px;
+}
+
+button:hover {
+    background-color: rgb(92, 190, 236);
+    border: 1px solid rgb(24, 116, 159);
+    transition: 0.3s;
+}
+
+#request-joke {
+    display: none;
+}
