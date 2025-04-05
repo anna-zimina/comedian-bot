@@ -8,4 +8,4 @@ This is a simple chat-bot-like project that retrieves a random joke upon request
 - JSON Object.keys() method.  
 
 ### Screenshot:
-![screenshot]()
+![screenshot](https://github.com/anna-zimina/comedian-bot/blob/main/Screenshot%20for%20ReadMe.png)
